@@ -22,7 +22,7 @@ name                     : "J0hn Tena"
 description              : "Artículos sobre ciberseguridad, CTFs e investigaciones"
 url                      : "https://johntena.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # "/blog"
-repository               : "johntena/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "r3dj0hn" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #logo                     : "/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)

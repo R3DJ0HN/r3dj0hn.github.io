@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="J0hnT | Blog">
 <meta property="og:title" content="            J0hnT      Blog      ">
-<meta property="og:url" content="http://localhost:4000/page2/">
+<meta property="og:url" content="http://192.168.1.12:4000/page2/">
 
 
 
@@ -36,11 +36,13 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/page2/">
+<link rel="canonical" href="http://192.168.1.12:4000/page2/">
 
 
-  <link rel="prev" href="http://localhost:4000/">
+  <link rel="prev" href="http://192.168.1.12:4000/">
 
+
+  <link rel="next" href="http://192.168.1.12:4000/page3/">
 
 
 
@@ -51,7 +53,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "J0hn Tena",
-      "url": "http://localhost:4000",
+      "url": "http://192.168.1.12:4000",
       "sameAs": null
     }
   </script>
@@ -286,41 +288,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/fasttcpscan-go/" rel="permalink">FastTcpScan - Go
-</a>
-        
-      
-    </h2>
-
-    <p class="page__meta">
-      
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-01-31T00:00:00-06:00">January 31, 2020 </time>&emsp;
-      
-      
-    </p>
-
-    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/fasttcpscan-go/golang-go.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">En el siguiente artículo os comparto la herramienta FastTcpScan que nos desarrollamos en la máquina Hawk de la plataforma HackTheBox. Esta herramienta consiste en un escáner que permite detectar de forma rápida y precisa los puertos TCP que una máquina tiene abiertos.
-</p>
-    <i class="fas fa-tags"></i>
-    
-      <a href="/tags/#TCP Scan" class="page__meta btn" rel="tag">TCP Scan</a>
-    
-      <a href="/tags/#Go Golang" class="page__meta btn" rel="tag">Go Golang</a>
-    
-  </article>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/europa-hackthebox/" rel="permalink">Europa - Hack The Box
+        <a href="/htb-writeup-intense/" rel="permalink">Intense - Hack The Box
 </a>
         <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
       
@@ -328,24 +296,26 @@
 
     <p class="page__meta">
       
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-01-31T00:00:00-06:00">January 31, 2020 </time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-11-14T00:00:00-06:00">November 14, 2022 </time>&emsp;
       
       
     </p>
 
-    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-europa/europa_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Una máquina muy interesante la cual resolvemos en mi canal de YouTube. En este caso, os comparto el script Autopwn que nos habíamos configurado en Python, donde tras su ejecución se nos automatiza la intrusión y la escalada de privilegios mediante el uso de la librería pwn.
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-intense/intense_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Intense starts with code review of a flask application where we find an SQL injection vulnerability that we exploit with a time-based technique.  After retrieving the admin hash, we’ll use a hash length extension attack to append the admin username and hash that we found in the database, while keeping the signature valid, then use a path traversal vulnerability to read the snmp configuration file. With the SNMP read-write community string we can execute commands with the daemon user. To escalate to root, we’ll create an SNMP configuration file with the agentUser set to root, then wait for the SNMP daemon to restart to so we can execute commands as root.
 </p>
     <i class="fas fa-tags"></i>
     
-      <a href="/tags/#Sqli" class="page__meta btn" rel="tag">Sqli</a>
+      <a href="/tags/#snmp" class="page__meta btn" rel="tag">snmp</a>
     
-      <a href="/tags/#Web Exploiting" class="page__meta btn" rel="tag">Web Exploiting</a>
+      <a href="/tags/#sqli" class="page__meta btn" rel="tag">sqli</a>
     
-      <a href="/tags/#Privilege Escalation" class="page__meta btn" rel="tag">Privilege Escalation</a>
+      <a href="/tags/#sqlite" class="page__meta btn" rel="tag">sqlite</a>
     
-      <a href="/tags/#Python" class="page__meta btn" rel="tag">Python</a>
+      <a href="/tags/#hash length extension" class="page__meta btn" rel="tag">hash length extension</a>
     
-      <a href="/tags/#Pentesting" class="page__meta btn" rel="tag">Pentesting</a>
+      <a href="/tags/#path traversal" class="page__meta btn" rel="tag">path traversal</a>
+    
+      <a href="/tags/#flask" class="page__meta btn" rel="tag">flask</a>
     
   </article>
 </div>
@@ -360,28 +330,36 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/chatroulette-bypass/" rel="permalink">Bypassing de validación en Chatroulette
+        <a href="/htb-writeup-tabby/" rel="permalink">Tabby - Hack The Box
 </a>
-        
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
       
     </h2>
 
     <p class="page__meta">
       
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-01-30T00:00:00-06:00">January 30, 2020 </time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-11-07T00:00:00-06:00">November 07, 2022 </time>&emsp;
       
       
     </p>
 
-    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/chatroulette-bypass/chatroulette-main.jpg" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Hoy os vengo a mostrar un bypassing de lo más absurdo en la plataforma de Chatroulette. Supongo que sabréis que a la hora de entrar en Chatroulette se lleva a cabo una especie de validación, donde te piden que sonrías para que tu cara quede registrada en el sistema y posteriormente puedas acceder. Pues atentos a la jugada.
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-tabby/tabby_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Tabby was an easy box with simple PHP arbitrary file ready, some password cracking, password re-use and abusing LXD group permissions to instantiate a new container as privileged and get root access. I had some trouble finding the tomcat-users.xml file so installed Tomcat locally on my VM and found the proper path for the file.
 </p>
     <i class="fas fa-tags"></i>
     
-      <a href="/tags/#Chatroulette" class="page__meta btn" rel="tag">Chatroulette</a>
+      <a href="/tags/#php" class="page__meta btn" rel="tag">php</a>
     
-      <a href="/tags/#Burpsuite" class="page__meta btn" rel="tag">Burpsuite</a>
+      <a href="/tags/#lfi" class="page__meta btn" rel="tag">lfi</a>
     
-      <a href="/tags/#Bypassing" class="page__meta btn" rel="tag">Bypassing</a>
+      <a href="/tags/#tomcat" class="page__meta btn" rel="tag">tomcat</a>
+    
+      <a href="/tags/#password cracking" class="page__meta btn" rel="tag">password cracking</a>
+    
+      <a href="/tags/#zip" class="page__meta btn" rel="tag">zip</a>
+    
+      <a href="/tags/#password re-use" class="page__meta btn" rel="tag">password re-use</a>
+    
+      <a href="/tags/#lxd" class="page__meta btn" rel="tag">lxd</a>
     
   </article>
 </div>
@@ -396,32 +374,32 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/bspwm-configuration-files/" rel="permalink">Archivos de configuración de Bspwm
+        <a href="/htb-writeup-fuse/" rel="permalink">Fuse - Hack The Box
 </a>
-        
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
       
     </h2>
 
     <p class="page__meta">
       
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-01-30T00:00:00-06:00">January 30, 2020 </time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-10-31T00:00:00-06:00">October 31, 2022 </time>&emsp;
       
       
     </p>
 
-    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/bspwm/bspwm-background.jpg" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">En este artículo comparto algunos de los archivos que creamos en el vídeo ‘Cómo configurar un buen entorno de trabajo en Linux’ de mi canal de YouTube.
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-fuse/fuse_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">To solve Fuse, we’ll do some enumeration to gather potential usernames from the print jobs information then build a password list from the strings on the website. After successfully password spraying, we’ll reset the expired password to a new one then use rpcclient to identify a printer service account and find its password in a description field. To priv esc, we’ll use the ability of our user with Printer Operators right to load a malicous kernel driver and get SYSTEM.
 </p>
     <i class="fas fa-tags"></i>
     
-      <a href="/tags/#Bspwm" class="page__meta btn" rel="tag">Bspwm</a>
+      <a href="/tags/#password spray" class="page__meta btn" rel="tag">password spray</a>
     
-      <a href="/tags/#Sxhkd" class="page__meta btn" rel="tag">Sxhkd</a>
+      <a href="/tags/#crackmapexec" class="page__meta btn" rel="tag">crackmapexec</a>
     
-      <a href="/tags/#Compton" class="page__meta btn" rel="tag">Compton</a>
+      <a href="/tags/#smbpasswd" class="page__meta btn" rel="tag">smbpasswd</a>
     
-      <a href="/tags/#Polybar" class="page__meta btn" rel="tag">Polybar</a>
+      <a href="/tags/#print operators" class="page__meta btn" rel="tag">print operators</a>
     
-      <a href="/tags/#Powerlevel10k" class="page__meta btn" rel="tag">Powerlevel10k</a>
+      <a href="/tags/#capcom" class="page__meta btn" rel="tag">capcom</a>
     
   </article>
 </div>
@@ -436,28 +414,326 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/hospital-dicom-exposure/" rel="permalink">Exposición de datos médicos en hospitales
+        <a href="/htb-writeup-dyplesher/" rel="permalink">Dyplesher - Hack The Box
 </a>
-        
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
       
     </h2>
 
     <p class="page__meta">
       
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2020-01-29T00:00:00-06:00">January 29, 2020 </time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-10-24T00:00:00-05:00">October 24, 2022 </time>&emsp;
       
       
     </p>
 
-    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/hospital-dicom/dicom.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Durante los últimos meses, hemos visto noticias por todos lados de datos médicos de pacientes los cuales han quedado expuestos por internet. Es algo alarmante pero no sorprendente teniendo en cuenta cómo está la seguridad a día de hoy. En el siguiente artículo, os explico en qué consiste este gran fallo y cómo es posible que estos datos queden expuestos al alcance de cualquiera.
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-dyplesher/dyplesher_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Dyplesher was a pretty tough box that took me more than 10 hours to get to the user flag. There’s quite a bit of enumeration required to get to the git repo and then find memcached credentials from the source code. I couldn’t use the memcache module from Metasploit here since it doesn’t support credentials so I wrote my own memcache enumeration script. We then make our way to more creds in Gogs, then craft a malicious Minecraft plugin to get RCE. To get to the first flag we’ll sniff AMQP creds from the loopback interface. To priv esc, we send messages on the RabbitMQ bug and get the server to download and execute a lua script (Cubberite plugin).
 </p>
     <i class="fas fa-tags"></i>
     
-      <a href="/tags/#Hospitales" class="page__meta btn" rel="tag">Hospitales</a>
+      <a href="/tags/#linux" class="page__meta btn" rel="tag">linux</a>
     
-      <a href="/tags/#Dicom" class="page__meta btn" rel="tag">Dicom</a>
+      <a href="/tags/#vhosts" class="page__meta btn" rel="tag">vhosts</a>
     
-      <a href="/tags/#Radiant" class="page__meta btn" rel="tag">Radiant</a>
+      <a href="/tags/#gogs" class="page__meta btn" rel="tag">gogs</a>
+    
+      <a href="/tags/#memcache" class="page__meta btn" rel="tag">memcache</a>
+    
+      <a href="/tags/#sqlite" class="page__meta btn" rel="tag">sqlite</a>
+    
+      <a href="/tags/#minecraft" class="page__meta btn" rel="tag">minecraft</a>
+    
+      <a href="/tags/#capabilities" class="page__meta btn" rel="tag">capabilities</a>
+    
+      <a href="/tags/#pcap" class="page__meta btn" rel="tag">pcap</a>
+    
+      <a href="/tags/#amqp" class="page__meta btn" rel="tag">amqp</a>
+    
+      <a href="/tags/#rabbitmq" class="page__meta btn" rel="tag">rabbitmq</a>
+    
+      <a href="/tags/#lua" class="page__meta btn" rel="tag">lua</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-blunder/" rel="permalink">Blunder - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-10-17T00:00:00-05:00">October 17, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-blunder/blunder_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Blunder was an easy box for beginners that required bruteforcing the login for a Bludit CMS, then exploiting a known CVE through Metasploit to get remote code execution. The priv esc is a neat little CVE with sudo that allows us to execute commands as root even though the root username is supposed to be blocked.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#linux" class="page__meta btn" rel="tag">linux</a>
+    
+      <a href="/tags/#bludit cms" class="page__meta btn" rel="tag">bludit cms</a>
+    
+      <a href="/tags/#wordlist" class="page__meta btn" rel="tag">wordlist</a>
+    
+      <a href="/tags/#cewl" class="page__meta btn" rel="tag">cewl</a>
+    
+      <a href="/tags/#bruteforce" class="page__meta btn" rel="tag">bruteforce</a>
+    
+      <a href="/tags/#sudo" class="page__meta btn" rel="tag">sudo</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-cache/" rel="permalink">Cache - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-10-10T00:00:00-05:00">October 10, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-cache/cache_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">On Cache, we start off with bypassing a simple login form that uses client-side user/password validation, then find a vhost with a vulnerable OpenEMR application. After bypassing the login page, obtaining a valid session cookie and dumping the database through a SQLi injection vulnerability we exploit yet another OpenEMR CVE to get a shell. From there we have access to a memcache instance holding more credentials in memory so we can escalate to another user. Using the docker group membership of that last user, we’re able to launch a privileged container and get root privileges on the host itself.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#javascript" class="page__meta btn" rel="tag">javascript</a>
+    
+      <a href="/tags/#client-side validation" class="page__meta btn" rel="tag">client-side validation</a>
+    
+      <a href="/tags/#sqli" class="page__meta btn" rel="tag">sqli</a>
+    
+      <a href="/tags/#vhost" class="page__meta btn" rel="tag">vhost</a>
+    
+      <a href="/tags/#openemr" class="page__meta btn" rel="tag">openemr</a>
+    
+      <a href="/tags/#cve" class="page__meta btn" rel="tag">cve</a>
+    
+      <a href="/tags/#john" class="page__meta btn" rel="tag">john</a>
+    
+      <a href="/tags/#memcached" class="page__meta btn" rel="tag">memcached</a>
+    
+      <a href="/tags/#docker" class="page__meta btn" rel="tag">docker</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-blackfield/" rel="permalink">Blackfield - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-10-03T00:00:00-05:00">October 03, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-blackfield/blackfield_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Blackfield was a fun Windows box where we get a list of potential usernames from an open SMB share, validate that list using kerbrute, then find and crack the hash of an account with the AS-REProasting technique. After getting that first user, we’ll use Bloodhound to discover that we can change another account’s password, then from there access a previously locked down SMB share, retrieve an LSASS dump file and get more credentials. For the last part of the box we’ll abuse the Backup Operators role to download a copy of the NTDS.dit file and recover the administrator NT hash.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#ad" class="page__meta btn" rel="tag">ad</a>
+    
+      <a href="/tags/#backup operators" class="page__meta btn" rel="tag">backup operators</a>
+    
+      <a href="/tags/#asrep" class="page__meta btn" rel="tag">asrep</a>
+    
+      <a href="/tags/#lsass" class="page__meta btn" rel="tag">lsass</a>
+    
+      <a href="/tags/#pypykatz" class="page__meta btn" rel="tag">pypykatz</a>
+    
+      <a href="/tags/#usodllloader" class="page__meta btn" rel="tag">usodllloader</a>
+    
+      <a href="/tags/#impacket" class="page__meta btn" rel="tag">impacket</a>
+    
+      <a href="/tags/#bloodhound" class="page__meta btn" rel="tag">bloodhound</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-admirer/" rel="permalink">Admirer - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-09-26T00:00:00-05:00">September 26, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-admirer/admirer_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Admirer is an easy box with the typical ‘gobuster/find creds on the webserver’ part, but after we use a Rogue MySQL server to read files from the server file system, then for privesc there’s a cool sudo trick with environment variables so we can hijack the python library path and get RCE as root.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#plaintext creds" class="page__meta btn" rel="tag">plaintext creds</a>
+    
+      <a href="/tags/#gobuster" class="page__meta btn" rel="tag">gobuster</a>
+    
+      <a href="/tags/#ftp" class="page__meta btn" rel="tag">ftp</a>
+    
+      <a href="/tags/#rogue mysql" class="page__meta btn" rel="tag">rogue mysql</a>
+    
+      <a href="/tags/#python" class="page__meta btn" rel="tag">python</a>
+    
+      <a href="/tags/#sudo" class="page__meta btn" rel="tag">sudo</a>
+    
+      <a href="/tags/#setenv" class="page__meta btn" rel="tag">setenv</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-multimaster/" rel="permalink">Multimaster - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-09-19T00:00:00-05:00">September 19, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-multimaster/multimaster_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Multimaster was a challenging Windows machine that starts with an SQL injection so we can get a list of hashes. The box author threw a little curve ball here and it took me a while to figure that the hash type was Keccak-384, and not SHA-384. After successfully spraying the cracked password, we exploit a local command execution vulnerability in VS Code, then find a password in a DLL file, perform a targeted Kerberoasting attack and finally use our Server Operators group membership to get the flag.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#ad" class="page__meta btn" rel="tag">ad</a>
+    
+      <a href="/tags/#password spray" class="page__meta btn" rel="tag">password spray</a>
+    
+      <a href="/tags/#kerberoasting" class="page__meta btn" rel="tag">kerberoasting</a>
+    
+      <a href="/tags/#keccak" class="page__meta btn" rel="tag">keccak</a>
+    
+      <a href="/tags/#sqli" class="page__meta btn" rel="tag">sqli</a>
+    
+      <a href="/tags/#winrm" class="page__meta btn" rel="tag">winrm</a>
+    
+      <a href="/tags/#powerview" class="page__meta btn" rel="tag">powerview</a>
+    
+      <a href="/tags/#vs code" class="page__meta btn" rel="tag">vs code</a>
+    
+      <a href="/tags/#chisel" class="page__meta btn" rel="tag">chisel</a>
+    
+      <a href="/tags/#server operators" class="page__meta btn" rel="tag">server operators</a>
+    
+      <a href="/tags/#backup operators" class="page__meta btn" rel="tag">backup operators</a>
+    
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/htb-writeup-travel/" rel="permalink">Travel - Hack The Box
+</a>
+        <img src="/assets/images/hackthebox.webp" alt="" style="height:24px; margin-left:10px">
+      
+    </h2>
+
+    <p class="page__meta">
+      
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2022-09-05T00:00:00-05:00">September 05, 2022 </time>&emsp;
+      
+      
+    </p>
+
+    <p class="archive__item-excerpt" itemprop="description"><img src="/assets/images/htb-writeup-travel/travel_logo.png" alt="" style="float: right;margin-right:10px; margin-left:20px; margin-bottom:10px; height:120px;">Travel is an awesome box from my ATeam teammates xct and jkr. The box has a code review part where we analyze the source code of a PHP web app to find a command injection vulnerability in a curl command. We then use the Gopher protocol to perform SSRF and write a serialized PHP payload into the memcache database. For the priv esc part, we manipulate attributes of a user in an LDAP database which is used by the NSS facility to extend the Linux authentication database.
+</p>
+    <i class="fas fa-tags"></i>
+    
+      <a href="/tags/#vhosts" class="page__meta btn" rel="tag">vhosts</a>
+    
+      <a href="/tags/#php" class="page__meta btn" rel="tag">php</a>
+    
+      <a href="/tags/#git" class="page__meta btn" rel="tag">git</a>
+    
+      <a href="/tags/#memcache" class="page__meta btn" rel="tag">memcache</a>
+    
+      <a href="/tags/#ssrf" class="page__meta btn" rel="tag">ssrf</a>
+    
+      <a href="/tags/#gopher" class="page__meta btn" rel="tag">gopher</a>
+    
+      <a href="/tags/#deserialization" class="page__meta btn" rel="tag">deserialization</a>
+    
+      <a href="/tags/#ldap" class="page__meta btn" rel="tag">ldap</a>
+    
+      <a href="/tags/#viminfo" class="page__meta btn" rel="tag">viminfo</a>
+    
+      <a href="/tags/#nss" class="page__meta btn" rel="tag">nss</a>
     
   </article>
 </div>
@@ -488,17 +764,37 @@
     
 
     
+      
+        <li><a href="/page2/" class="disabled current">2</a></li>
+      
+    
+      
+        
+        
+        
+        <li><a href="/page3/">3</a></li>
+      
+    
+      
+        
+        
+        
+        <li><a href="/page4/">4</a></li>
+      
+    
 
     
     
-
-    
-      <li><a href="#" class="disabled current">2</a></li>
+      <li><a href="#" class="disabled">&hellip;</a></li>
     
 
     
+      <li><a href="/page11/">11</a></li>
     
-      <li><a href="#" class="disabled"><span aria-hidden="true">Next</span></a></li>
+
+    
+    
+      <li><a href="/page3/">Next</a></li>
     
   </ul>
 </nav>
